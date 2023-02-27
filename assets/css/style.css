@@ -1,0 +1,41 @@
+/* prima parte di reset, font  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#barra-nav{
+    background-color: white;
+    position: sticky;
+    height: 7vh;
+    align-items: center;
+    justify-content:space-between;
+}
+.flex{
+    display: flex;
+}
+
+section > nav:nth-child(1){
+    margin-left: 20px;
+}
+section > nav:last-child {
+    margin-right: 20px;
+}
+nav > a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.b-blue{
+    background-color: blue;
+    color: white;
+    padding-right: 15px; padding-left: 15px;
+    padding-bottom: 5px; padding-top: 5px;
+}
+
