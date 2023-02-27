@@ -6,6 +6,11 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.debug{
+    border: 1px dotted red;
+}
+
+/* header */
 a{
     text-decoration: none;
     color: black;
@@ -14,6 +19,7 @@ a{
 #barra-nav{
     background-color: white;
     position: sticky;
+    top: 0px; left: 0px; right: 0px;
     height: 7vh;
     align-items: center;
     justify-content:space-between;
@@ -38,4 +44,100 @@ nav > a{
     padding-right: 15px; padding-left: 15px;
     padding-bottom: 5px; padding-top: 5px;
 }
+
+/*main*/
+.container-60{
+    width: 60%;
+    margin-left: auto; margin-right: auto;
+}
+/* .container-20{
+    width: 20%;
+    /* margin-left: auto; margin-right: auto; 
+} */
+.w-25{
+    width: 25%;
+    height: auto;
+}
+.margin-top50{
+    margin-top: 50px;
+}
+
+.b-turquoise{
+    background-color: turquoise;
+    height: 580px;
+}
+.height-400{
+    height: 400px;
+}
+h1{
+    padding-top: 50px;
+    font-size: 3.5em;
+    margin-right: 20%;
+}
+/* .column{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+} */
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+.margin-bot-25{
+    margin-bottom: 25px;
+}
+
+/* .justify-center{
+    justify-content: center;
+} */
+
+#arrow{
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.container-45{
+    margin-top: 150px;
+    width: 45%;
+    margin-left: auto; margin-right: auto;
+}
+
+.circle1, .circle2{
+    margin-right: 3px;
+}
+.circle2{
+    margin-left: 40px;
+}
+
+.table{
+    border: 1px solid black;
+    width: calc((100%/3) - 3%);
+    /* height: 500px; */
+}
+.text-center{
+    text-align:center;
+    display: block;
+}
+
+.p30{
+    padding: 30px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.icone{
+    margin-right: 5px;
+}
+.thead{
+    padding: 10px;
+}
+
+/* ul{
+    list-style-type: none;    
+} */
 
