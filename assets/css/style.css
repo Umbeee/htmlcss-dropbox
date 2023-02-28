@@ -178,3 +178,34 @@ h1{
 .w-70{
     width: 70%;
 }
+
+
+.bottone-bianco{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.margin-left-50{
+    margin-left: 50px;
+    float: left;
+}
+
+.display-block{
+    display: block;
+}
+
+#schede{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.scheda{
+    width: 30%;
+}
+
+.height-200{
+    height: 200px;
+}
