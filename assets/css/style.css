@@ -15,15 +15,21 @@ a{
     text-decoration: none;
     color: black;
 }
-
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 12;
+}
 #barra-nav{
     background-color: white;
-    position: sticky;
-    top: 0px; left: 0px; right: 0px;
+    
+   
+    background-color: white;
     height: 7vh;
     align-items: center;
     justify-content:space-between;
 }
+
 .flex{
     display: flex;
 }
@@ -38,32 +44,39 @@ nav > a{
     margin-right: 20px;
     margin-left: 20px;
 }
+
 .b-blue{
     background-color: blue;
     color: white;
     padding-right: 15px; padding-left: 15px;
     padding-bottom: 5px; padding-top: 5px;
 }
+.b-blue:hover{
+    background-color: rgb(70, 70, 253);
+}
 
-/*main*/
+header section nav a:hover{
+    border-bottom: 2px solid black;
+}
+
+                    /*main*/
+
+                    /* SEZIONE 1 */
 .container-60{
     width: 60%;
-    margin-left: auto; margin-right: auto;
+    margin: 0 auto;
 }
-/* .container-20{
-    width: 20%;
-    /* margin-left: auto; margin-right: auto; 
-} */
+
 .w-25{
-    width: 25%;
-    height: auto;
+    flex-basis: 25%;
+    /* height: auto; */
 }
 .margin-top50{
     margin-top: 50px;
 }
 
 .b-turquoise{
-    background-color: turquoise;
+    background-color: #B7D0E8;
     height: 580px;
 }
 .height-400{
@@ -74,13 +87,6 @@ h1{
     font-size: 3.5em;
     margin-right: 20%;
 }
-/* .column{
-    flex-direction: column;
-}
-
-.wrap{
-    flex-wrap: wrap;
-} */
 
 .margin-top-25{
     margin-top: 25px;
@@ -90,9 +96,6 @@ h1{
     margin-bottom: 25px;
 }
 
-/* .justify-center{
-    justify-content: center;
-} */
 
 #arrow{
     font-size: 40px;
@@ -114,8 +117,7 @@ h1{
 
 .table{
     border: 1px solid black;
-    width: calc((100%/3) - 3%);
-    /* height: 500px; */
+    width: 30%;
 }
 .text-center{
     text-align:center;
@@ -135,9 +137,44 @@ h1{
 }
 .thead{
     padding: 10px;
+    border-bottom: 1px solid black;
 }
 
-/* ul{
-    list-style-type: none;    
-} */
+.p30 ul li {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
 
+.margin-top1em{
+    margin-top: 1em;
+}
+
+.a-standard{
+    text-decoration: underline;
+    color: blue;
+}
+
+.hr{
+    border-bottom: 1px solid black;
+    margin-left: 30px;
+    width: 60px;
+}
+.spunte ul li{
+    list-style-type: none;
+}
+
+.spunte ul li::before{
+    content: '\2714';
+    color: blue;
+    margin-right: 5px;
+}
+
+/* SEZIONE 3 */
+.border{
+    border: 1px solid black;
+}
+
+.w-70{
+    width: 70%;
+}
