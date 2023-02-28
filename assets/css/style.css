@@ -22,8 +22,6 @@ header{
 }
 #barra-nav{
     background-color: white;
-    
-   
     background-color: white;
     height: 7vh;
     align-items: center;
@@ -46,13 +44,16 @@ nav > a{
 }
 
 .b-blue{
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
     padding-right: 15px; padding-left: 15px;
     padding-bottom: 5px; padding-top: 5px;
 }
 .b-blue:hover{
-    background-color: rgb(70, 70, 253);
+    background-color: rgb(125, 125, 255);
+}
+.bottone-bianco:hover{
+    color: rgb(110, 110, 110);
 }
 
 header section nav a:hover{
@@ -76,7 +77,7 @@ header section nav a:hover{
 }
 
 .b-turquoise{
-    background-color: #B7D0E8;
+    background-color: #b4d0e7;
     height: 580px;
 }
 .height-400{
@@ -208,4 +209,98 @@ h1{
 
 .height-200{
     height: 200px;
+}
+
+.w-33{
+    width: calc(100%/3);
+}
+
+.quadrati{
+    flex-wrap: wrap;
+}
+#q1{
+    background-color: #a2d39b;
+}
+#q2{
+    background-color: #61082b;
+}
+#q3{
+    background-color: #0093ce;
+}
+#q4{
+    background-color: #ff1c1c;
+}
+
+.q{
+    width: 50%;
+    height: 16.6vw;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.height-foto{
+    height: 25%;
+}
+.invert{
+    filter: invert(1); 
+}
+
+#quadrato-centrale{
+    background-color: #f5f5f5;
+}
+
+#q6{
+    background-color: #d5001f;
+}
+
+#q7{
+    background-color: #b4d0e7;
+}
+
+#q8{
+    background-color: #0d2481;
+}
+
+
+#q9{
+    background-color: #ffd830;
+}
+
+#rettangolo{
+    width: 100%;
+    height: 18vw;
+    background-color: #b4d0e7;
+}
+.noborder{
+    border: #b4d0e7;
+    
+}
+
+
+ .font-size2em{
+    font-size: 2em;
+}
+
+.font-size2-5em{
+    font-size: 2.5em;
+}
+.margin-top-150{
+    margin-top: 150px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.height-100{
+    height: 100%;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-50{
+    width: 50%;
 }
