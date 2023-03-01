@@ -56,13 +56,13 @@ nav > a{
     color: rgb(110, 110, 110);
 }
 
-header section nav a:hover{
+header section nav .a:hover{
     border-bottom: 2px solid black;
 }
 
-                    /*main*/
+/*main*/
 
-                    /* SEZIONE 1 */
+/* SEZIONE 1 */
 .container-60{
     width: 60%;
     margin: 0 auto;
@@ -303,4 +303,58 @@ h1{
 
 .w-50{
     width: 50%;
+}
+
+.lista-pre-footer{
+    list-style-type: none;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.margin-bot-150{
+    margin-bottom: 150px;
+}
+
+.hide {
+    display: none;
+}
+
+.lista-pre-footer-h3:hover + .hide {
+    display: block;
+    margin-top: 20px;
+}
+
+.p30top-bot{
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+
+.border-bot{
+    border-bottom: 1px solid black;
+}
+
+.border-top{
+    border-top: 1px solid black;
+}
+
+footer{
+    background-color: black;
+}
+
+.white{
+    color: white;
+}
+
+.footer > div{
+    color: white;
+}
+
+.border-top-w{
+    border-top: 1px solid white;
+}
+footer > div:last-child{
+    width: 8%;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 25px;
 }
